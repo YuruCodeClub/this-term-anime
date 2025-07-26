@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
+    background-color: #D9E4EC;
 }
 
 nav{
@@ -9,7 +9,7 @@ nav{
     padding: 10px;
     width: 100%;
     z-index: 10;
-    background-color: #426AB3;
+    background-color: #013b68;
 }
 
 nav ul{
@@ -21,13 +21,15 @@ nav ul{
 
 nav a{
     margin-right: 10px;
-    padding: 5px;
+    padding: 10px 20px;
     text-decoration: none;
-    color: black;
+    color: #D0CEE8
 }
 
 nav a:hover{
-    background-color: aliceblue;
+    border-radius: 5px;
+    background-color: #C9DFEC;
+    color: black;
 }
 
 .home-div{
@@ -53,8 +55,8 @@ nav a:hover{
 }
 
 .footer-div{
-    padding: 40px;
-    background-color: aquamarine;
+    padding: 30px;
+    background-color: #79A1C0;
     text-align: center;
 }
 
@@ -64,6 +66,7 @@ nav a:hover{
 
 .footer-div a{
     text-decoration: none;
+    color: white;
 }
 
 .explain-div{
@@ -87,7 +90,7 @@ nav a:hover{
 }
 
 .summary-div cite{
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 .event-div{
@@ -106,6 +109,16 @@ nav a:hover{
     height: 30px;
 }
 
+.event-div p{
+    margin-right: 5px;
+}
+
+.goods-div{
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
+    background-color: 	#C9DFEC;
+}
+
 .goods-header-div{
     margin-left: 10px;
     margin-bottom: 30px;
@@ -120,9 +133,10 @@ nav a:hover{
 }
 
 .goods-header-div a:hover{
+    background-color: #D9EFF9;
     cursor: pointer;
-	transform: scale(1.1, 1.1);
-    box-shadow: 0px 0px 10px gray;
+	transform: scale(1.05, 1.05);
+    box-shadow: 0px 0px 10px silver;
 }
 
 .goods-header-div h1{
@@ -136,7 +150,6 @@ nav a:hover{
     width: auto; 
 }
 
-
 .goods-item-div{
     display: flex;
     justify-content: space-evenly;
@@ -146,6 +159,12 @@ nav a:hover{
 .item-div{
     padding: 30px;
     background-color: white;
+    border: solid 2px #CCC;
+    box-shadow: 2px 2px 5px silver;
+}
+
+.item-div:hover{
+    border:solid 2px #203aad;
 }
 
 .item-div img{
