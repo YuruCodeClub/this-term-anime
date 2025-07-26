@@ -36,29 +36,118 @@ nav a:hover{
 
 .link-div{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .link-div img{
-    margin: 0 20px 20px 20px;
-    height: 300px;
+    margin: 10px 0 40px 0;
+    height: 280px;
+    border-radius: 5px;
+	transition: all 0.6s ease 0s;
+}
+
+.link-div img:hover{
+	cursor: pointer;
+	transform: scale(1.05, 1.05);
+}
+
+.footer-div{
+    padding: 40px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.footer-div p{
+    color: white;
+}
+
+.footer-div a{
+    text-decoration: none;
 }
 
 .explain-div{
     margin: 8% 20px 0 20px;
 }
 
+.header-div{
+    margin-left: 10px;
+}
+
 .content-div{
     display: flex;
-    flex-wrap: wrap;
+}
+
+.pv-div{
+    margin: 30px 20px 20px 10px;
+}
+
+.summary-div h3{
+    margin-left: 5px;
+}
+
+.summary-div cite{
+    margin-left: 45%;
 }
 
 .event-div{
     display: flex;
     flex-wrap: wrap;
+    margin: 30px auto 30px auto;
+    width: 95%;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
 }
 
 .event-div img{
-    margin-right: 20px;
+    margin: 14px 10px 0 20px;
     height: 30px;
+}
+
+.goods-header-div{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 20%;
+}
+
+.goods-header-div a{
+    display: flex;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.6s ease 0s;
+}
+
+.goods-header-div a:hover{
+    cursor: pointer;
+	transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 10px gray;
+}
+
+.goods-header-div h1{
+    margin-left: 15px;
+    color: black;
+}
+
+.goods-header-div img {
+    margin: 22px 0 0 5px;
+    height: 50px; 
+    width: auto; 
+}
+
+
+.goods-item-div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.item-div{
+    padding: 30px;
+    background-color: white;
+}
+
+.item-div img{
+    height: 200px;
 }
